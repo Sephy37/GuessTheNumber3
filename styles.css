@@ -1,0 +1,77 @@
+body{
+    background-color: yellow;
+}
+
+#header-1{
+    color:red;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#header-2{
+    text-align: center;
+    color:blue;
+}
+
+#input-box{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#buttons{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+.button1{
+    margin-right: 20px;
+    background-color: red;
+}
+
+.btn{
+    margin-top:2px;
+    margin-left: 1px;
+    margin-right: 10px;
+    background-color: red;
+}
+
+#guess{
+  font-size: large;
+}
+
+.randNum{
+    text-align: center;
+    color:red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#border{
+    width:300px;
+    height: 300px;
+    border:10px solid black;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top:50px;
+
+}
+
+#borders{
+    color:red;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
